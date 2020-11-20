@@ -3,8 +3,8 @@ import Axios from "axios";
 import "../Styles/Landing.css";
 import "../Styles/Detalhes.css";
 import "../Styles/Global.css";
-import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import Navbar from "../Components/Navbar/Navbar";
 
 export default function Detalhes() {
   const [character, setCharacter] = useState([]);
@@ -23,11 +23,7 @@ export default function Detalhes() {
 
   return (
     <section className="characters-navbar">
-      <div className="characters-navbar-container">
-        <Link to="/" className="logo">
-          Breaking Bad Characters
-        </Link>
-      </div>
+      <Navbar />
       <div className="character-container">
         {character.map((characte) => (
           <div className="character-cards" key={characte.char_id}>
