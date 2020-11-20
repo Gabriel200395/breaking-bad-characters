@@ -1,0 +1,41 @@
+.to-edit {
+  margin-top: 100px;
+}
+
+.to-edit h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #e50914;
+}
+
+.to-edit .to-edit-container {
+  display: flex;
+  justify-content: center;
+}
+
+.to-edit-container form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.to-edit-container input {
+  margin-bottom: 10px;
+  height: 40px;
+  outline: none;
+  border-radius: 7px;
+  border: none;
+}
+
+.to-edit-container button {
+  height: 40px;
+  outline: none;
+  border-radius: 7px;
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+}
