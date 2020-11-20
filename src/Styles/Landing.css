@@ -1,0 +1,51 @@
+.characters-navbar .characters-navbar-container {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.characters-navbar-container .logo {
+  padding: 40px 50px;
+  color: #e50914;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.characters-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  background-color: #fff;
+  margin: 20px 8px;
+  height: 260px;
+}
+
+.characters-cards img {
+  width: 200px;
+  height: 200px;
+}
+
+.characters-buttons button {
+  margin: 13px 4px;
+  background-color: #fff;
+  color: #e50914;
+  height: 35px;
+  width: 70px;
+  border-radius: 5px;
+  outline: none;
+  border: solid 1px #e50914;
+  font-family: "Nunito", sans-serif;
+}
+
+.characters-buttons button:hover {
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+}
