@@ -22,10 +22,8 @@ export default function Characters() {
         <div className="characters-cards" key={character.char_id}>
           <img src={character.img} alt={character} />
           <div className="characters-buttons">
-            <Link to={"detalhes-characters/" + character.char_id}>
-              Detalhes
-            </Link>
-            <Link to="">editar</Link>
+            <Link to={"details-characters/" + character.char_id}>Detalhes</Link>
+            <Link to={"to-edit/" + character.char_id}>editar</Link>
           </div>
         </div>
       ))}
