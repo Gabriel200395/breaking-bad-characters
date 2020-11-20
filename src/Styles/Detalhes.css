@@ -8,29 +8,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  background-color: #fff;
-  margin: 20px 8px;
-  height: 370px;
-  color: #1a1212;
 }
 
-.character-cards h1 {
-  padding: 10px;
+.character-cards h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 17px;
 }
 
 .character-cards p {
   line-height: 21px;
   font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 13px;
 }
 
 .character-cards img {
   width: 360px;
   height: 220px;
   object-fit: contain;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .character-buttons {

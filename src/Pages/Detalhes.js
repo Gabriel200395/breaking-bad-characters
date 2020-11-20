@@ -27,7 +27,7 @@ export default function Detalhes() {
       <div className="character-container">
         {character.map((characte) => (
           <div className="character-cards" key={characte.char_id}>
-            <h1>{characte.name}</h1>
+            <h3>{characte.name}</h3>
             <img src={characte.img} alt={characte} />
             <p> categoria: {characte.category}</p>
             <p>ocupação: {characte.occupation}</p>
